@@ -1,4 +1,7 @@
 import self from "../img/self.png"
+import flappybird_mock from "../img/flappybird_mock.png"
+import billiard_mock from "../img/billiard_mock.png"
+import nohelmet_mock from "../img/nohelmet_mock.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
@@ -25,7 +28,7 @@ of what each of the values mean.
 export const info = {
     firstName: "Phú",
     lastName: "Macteo",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
+    initials: "macteo", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Game Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
@@ -73,63 +76,62 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hi! I'm Phú. I studying CompSci at UIT, I enjoy drawing and coding alot, and I belive that video-game is the best way to tell a story.",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['C++','Unity/C#', 'Python/Machine Learning', "Photoshop" ],
+            exposedTo: ['nodejs', 'SQL', 'blender']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'gaming',
+            emoji: '🎮'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'music',
+            emoji: '🎵'
+        },
+        {
+            label: 'drawing',
+            emoji: '🎨'
         },
         {
             label: 'movies',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'football',
+            emoji: '⚽'
+        },
+        {
+            label: 'billards',
+            emoji: '🎱'
+        },
+        {
+            label: 'coding',
+            emoji: '💻'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            title: "Flappy Bird - C++",
+            live: "https://youtu.be/5E6iAwEELds", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/phutaekwondo/flappybird-cpp", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: flappybird_mock 
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
+            title: "Billiard - Unity",
+            source: "https://github.com/phutaekwondo/billiard-unity",
+            image: billiard_mock 
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
+            title: "No Helmet - Computer Vision",
+            live: "https://youtu.be/X8SodgyuSpA",
+            source: "https://github.com/phutaekwondo/Driving_motorbike_without_helmet_detection_Using_YOLOV5",
+            image: nohelmet_mock
         }
     ]
 }
