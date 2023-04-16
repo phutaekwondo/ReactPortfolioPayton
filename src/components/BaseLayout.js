@@ -6,6 +6,8 @@ import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
 import {Route, Routes} from "react-router-dom";
 import {Box, Grid} from "@mui/material";
+import background from '../img/background.png';
+import background_dark from '../img/background_dark.png';
 
 export default function BaseLayout() {
    let [darkMode, setDarkMode] = useState(false);
@@ -28,7 +30,24 @@ export default function BaseLayout() {
    }, [])
 
    return (
-      <Box className={darkMode ? Style.dark : Style.light}>
+      <Box className={darkMode ? Style.dark : Style.light} style={
+         darkMode ? 
+            {
+            backgroundImage: `url(${background_dark})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundAttachment: 'fixed',
+            }
+            :
+            {
+            backgroundImage: `url(${background})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundAttachment: 'fixed',
+            }
+      }>
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
                justifyContent={'space-between'}>
             <Grid item>
@@ -44,7 +63,7 @@ export default function BaseLayout() {
             <Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                     py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p>Lại Nguyễn Vĩnh Phú &hearts; 2001</p>
+                  <p>Lại Nguyễn Vĩnh Phú</p>
                   <p>&copy; 2023</p>
                </Box>
             </Grid>

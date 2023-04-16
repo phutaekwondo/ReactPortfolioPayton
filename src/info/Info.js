@@ -128,7 +128,7 @@ export const info = {
             image: billiard_mock 
         },
         {
-            title: "No Helmet - Computer Vision",
+            title: "No Helmet Biker Detecting - Computer Vision",
             live: "https://youtu.be/X8SodgyuSpA",
             source: "https://github.com/phutaekwondo/Driving_motorbike_without_helmet_detection_Using_YOLOV5",
             image: nohelmet_mock
