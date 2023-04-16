@@ -48,6 +48,8 @@ export default function Navbar({darkMode, handleClick}) {
                                                 sx={{
                                                     height: 70,
                                                     width:  70,
+                                                    maxHeight: 70,
+                                                    maxWidth:  70,
                                                 }}/>}
                         </Link>
                     </Box>
