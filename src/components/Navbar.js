@@ -4,6 +4,7 @@ import Toggler from "./home/Toggler";
 import {Link, useLocation} from "react-router-dom";
 import {Box} from "@mui/material";
 import {info} from "../info/Info";
+import logo from '../img/logo.png';
 
 const links = [
     {
@@ -37,13 +38,17 @@ export default function Navbar({darkMode, handleClick}) {
         <Box component={'nav'} width={'100%'}>
             <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
                  gap={{xs: '2rem', md: '8rem'}}
-                 textTransform={'lowercase'} fontSize={'1rem'}>
+                 textTransform={'uppercase'} fontSize={'1rem'}>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
                          sx={{borderImageSource: info.gradient}}>
                         <Link to={link.to} onClick={() => setActive(link.active)} className={Style.link}>
                             {!link.type && <p style={{padding: '0.5rem 0'}}>{link.name}</p>}
-                            {link.type && <h1>{link.name}</h1>}
+                            {link.type && <Box component={'img'} src={logo} alt={'mockup'} padding={'0.5rem'}
+                                                sx={{
+                                                    height: 70,
+                                                    width:  70,
+                                                }}/>}
                         </Link>
                     </Box>
                 ))}
