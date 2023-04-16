@@ -25,7 +25,7 @@ export default function BaseLayout() {
       if (detectedDarkMode) {
          setDarkMode(detectedDarkMode)
       } else {
-         localStorage.setItem('darkMode', 'false')
+         localStorage.setItem('darkMode', 'true')
       }
    }, [])
 
