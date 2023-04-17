@@ -35,15 +35,18 @@ export const info = {
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
+            // noodles emoji
+            emoji: "🍜",
+            text: 'fueled by delicious food'
         },
         {
             emoji: '🌎',
-            text: 'based in the HCM'
+            text: 'based in the HCM, Vietnam'
         },
         {
-            emoji: "💼",
+            // note book emoji
+            emoji: '📓',
+            // emoji: "💼",
             text: "Student at University of Information Technology"
         },
         {
