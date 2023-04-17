@@ -30,7 +30,8 @@ export default function BaseLayout() {
    }, [])
 
    return (
-      <Box className={darkMode ? Style.dark : Style.light} style={
+      <Box className={darkMode ? Style.dark : Style.light} 
+         style={
          darkMode ? 
             {
             backgroundImage: `url(${background_dark})`,
@@ -47,7 +48,8 @@ export default function BaseLayout() {
             backgroundPosition: 'center',
             backgroundAttachment: 'fixed',
             }
-      }>
+         }
+      >
          <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
                justifyContent={'space-between'}>
             <Grid item>

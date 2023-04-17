@@ -21,7 +21,7 @@ function EmojiBullet(props) {
                  role="img"
                  mr={{xs: '0.5rem', md: '1rem'}} fontSize={'1.5rem'}>{emoji}
             </Box>
-            <Box component={'span'} fontWeight={700} fontSize={'1.2rem'}
+            <Box component={'span'} fontWeight={700} fontSize={'1rem'}
                 style={
                     detectedDarkMode?
                     {
