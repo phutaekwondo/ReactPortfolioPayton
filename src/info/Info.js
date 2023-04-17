@@ -47,7 +47,7 @@ export const info = {
             // note book emoji
             emoji: '📓',
             // emoji: "💼",
-            text: "Student at University of Information Technology"
+            text: "Student at UIT"
         },
         {
             emoji: "📧",
