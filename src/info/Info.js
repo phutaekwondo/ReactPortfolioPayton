@@ -127,8 +127,8 @@ export const info = {
             image: flappybird_mock 
         },
         {
-            titile: "Smash the Capsule - Unity",
-            live: "https://macteo.itch.io/smash-the-capsule",
+            title: "Smash the Capsule - Unity",
+            playable: "https://macteo.itch.io/smash-the-capsule",
             source: "https://github.com/phutaekwondo/smash-2d-unity",
             image: smash_mock 
         },
