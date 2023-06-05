@@ -2,6 +2,7 @@ import self from "../img/self.png"
 import flappybird_mock from "../img/flappybird_mock.png"
 import billiard_mock from "../img/billiard_mock.png"
 import nohelmet_mock from "../img/nohelmet_mock.png"
+import smash_mock from "../img/smash_mock.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
@@ -126,6 +127,12 @@ export const info = {
             image: flappybird_mock 
         },
         {
+            titile: "Smash the Capsule - Unity",
+            live: "https://macteo.itch.io/smash-the-capsule",
+            source: "https://github.com/phutaekwondo/smash-2d-unity",
+            image: smash_mock 
+        },
+        {
             title: "Billiard - Unity",
             live: "https://youtu.be/-G8uWSB-JOg",
             source: "https://github.com/phutaekwondo/billiard-unity",
@@ -136,6 +143,6 @@ export const info = {
             live: "https://youtu.be/X8SodgyuSpA",
             source: "https://github.com/phutaekwondo/Driving_motorbike_without_helmet_detection_Using_YOLOV5",
             image: nohelmet_mock
-        }
+        },
     ]
 }
