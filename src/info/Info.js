@@ -1,4 +1,5 @@
-import self from "../img/self.png"
+// import self from "../img/self.png"
+import self from "../img/portrait.png"
 import flappybird_mock from "../img/flappybird_mock.png"
 import billiard_mock from "../img/billiard_mock.png"
 import nohelmet_mock from "../img/nohelmet_mock.png"
