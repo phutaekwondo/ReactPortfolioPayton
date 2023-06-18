@@ -3,6 +3,7 @@ import flappybird_mock from "../img/flappybird_mock.png"
 import billiard_mock from "../img/billiard_mock.png"
 import nohelmet_mock from "../img/nohelmet_mock.png"
 import smash_mock from "../img/smash_mock.png"
+import drstrange_mock from "../img/drstrange_mock.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
@@ -125,6 +126,12 @@ export const info = {
             live: "https://youtu.be/5E6iAwEELds", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/phutaekwondo/flappybird-cpp", // this should be a link to the **repository** of the project, where the code is hosted.
             image: flappybird_mock 
+        },
+        {
+            title: "Dr Strange Portal - Unity 3D",
+            live: "https://youtu.be/HCGWXQIJSbM",
+            source: "https://github.com/phutaekwondo/VFX_Lord",
+            image: drstrange_mock
         },
         {
             title: "Smash the Capsule - Unity",
