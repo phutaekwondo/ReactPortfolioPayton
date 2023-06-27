@@ -111,7 +111,7 @@ export const info = {
             emoji: '⚽'
         },
         {
-            label: 'billards',
+            label: 'pool',
             emoji: '🎱'
         },
         {
