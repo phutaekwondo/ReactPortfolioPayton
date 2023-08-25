@@ -47,10 +47,9 @@ export const info = {
             text: 'based in the HCM, Vietnam'
         },
         {
-            // note book emoji
-            emoji: '📓',
-            // emoji: "💼",
-            text: "Student at UIT"
+            //laptop emoji
+            emoji: '💻',
+            text: "Working at Mecury Studio"
         },
         {
             emoji: "📧",
@@ -82,7 +81,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hi! I'm Phú. I studying CompSci at UIT, I enjoy drawing and coding alot, and I belive that video-game is the best way to tell a story.",
+    bio: "Hi! I'm Phú. I studied ComSci at UIT, and currently I'm a game developer. I enjoy drawing and coding a lot, and I believe that video-games are the best way to tell a story.",
     skills:
         {
             proficientWith: ['C++','Unity/C#', 'Python/Machine Learning', "Photoshop" ],
