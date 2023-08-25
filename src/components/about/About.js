@@ -68,7 +68,6 @@ export default function About() {
             <ul>
                 {info.experiences.map((experience, index) => (
                     <li key={index}>
-                        {/* <Box sx={{backgroundColor: pastelColors[Math.floor(Math.random() * pastelColors.length)]}} p={'0.5rem'} borderRadius={'0.5rem 0.5rem 0 0'}> */}
                         <Box sx={{backgroundColor: '#8c8c8c'}} p={'0.5rem'} borderRadius={'0.5rem 0.5rem 0 0'}>
                             <Box mr={'1rem'} style={{color: '#000000'}} fontSize={'1.2rem'}>&#x1F935; <strong>{experience.position}</strong></Box>
                         </Box>
