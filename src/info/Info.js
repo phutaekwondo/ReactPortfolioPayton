@@ -82,6 +82,29 @@ export const info = {
 
     ],
     bio: "Hi! I'm Phú. I studied ComSci at UIT, and currently I'm a game developer. I enjoy drawing and coding a lot, and I believe that video-games are the best way to tell a story.",
+    experiences:[
+        {
+            position: "Computer Science Student",
+            company: "University of Information Technology",
+            startDate: "09/2019",
+            endDate: "07/2023",
+            describe: "Studying Computer Science at UIT, I have learned a lot of things about programming, and I have also learned how to work in a team."
+        },
+        {
+            position: "C++ Programmer - Intern",
+            company: "Gameloft Vietnam",
+            startDate: "08/2022",
+            endDate: "02/2023",
+            describe: "I worked as a C++ programmer intern at Gameloft Vietnam. I learned a lot about C++ and how to work in a professional environment."
+        },
+        {
+            position: "Game Developer",
+            company: "Mecury Studio",
+            startDate: "09/2023",
+            endDate: "Present",
+            describe: "I'm currently working as a game developer at Mecury Studio. I'm working on game projects using Cocos2d and Unity."
+        },
+    ],
     skills:
         {
             proficientWith: ['C++','Unity/C#', 'Python/Machine Learning', "Photoshop" ],

@@ -1,12 +1,21 @@
 import React from 'react';
 import Style from './About.module.scss';
 import Terminal from "./Terminal";
-import {Box} from "@mui/material";
+import {Box, Icon} from "@mui/material";
 import {info} from "../../info/Info";
+import { Margin, SubtitlesOutlined } from '@mui/icons-material';
 
 
 export default function About() {
     const firstName = info.firstName.toLowerCase()
+    const pastelColors = [
+        '#FFB3BA',
+        '#FFDFBA',
+        '#FFFFBA',
+        '#Baffc9',
+        '#BAE1FF',
+        '#FFBAF3'
+    ]
 
     function aboutMeText() {
         return <>
@@ -50,9 +59,35 @@ export default function About() {
         </>;
     }
 
+    function experienceText() {
+        return <>
+            <p><span style={{color: info.baseColor}}>{info.lastName.toLowerCase()} $</span> cd
+                experience</p>
+            <p><span style={{color: info.baseColor}}>experience <span
+                className={Style.green}>(main)</span> $</span> ls</p>
+            <ul>
+                {info.experiences.map((experience, index) => (
+                    // box with background color is random color from pastelColors
+
+                    <li key={index}>
+                        <Box sx={{backgroundColor: pastelColors[Math.floor(Math.random() * pastelColors.length)]}} p={'0.5rem'} borderRadius={'0.5rem 0.5rem 0 0'}>
+                            <Box mr={'1rem'} style={{color: '#000000'}} fontSize={'1.2rem'}>&#x1F935; <strong>{experience.position}</strong></Box>
+                        </Box>
+                        <Box sx={{backgroundColor: '#0e151a'}} p={'0.5rem'} borderRadius={'0 0 0.5rem 0.5rem'}>
+                            <Box mr={'1rem'} fontSize={'1rem'}>&#x1F3E2; <strong>{experience.company}</strong></Box>
+                            <Box mr={'1rem'} fontSize={'1rem'}>&#x1F313; {experience.startDate} - {experience.endDate}</Box>
+                            <Box mr={'1rem'} fontSize={'1rem'}>&#x1F4BB; {experience.describe}</Box>
+                        </Box>
+                    </li>
+                ))}
+            </ul>
+        </>;
+    }
+
     return (
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
             <Terminal text={aboutMeText()}/>
+            <Terminal text={experienceText()}/>
             <Terminal text={skillsText()}/>
             <Terminal text={miscText()}/>
         </Box>
