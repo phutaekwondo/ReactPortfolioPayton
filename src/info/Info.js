@@ -107,39 +107,23 @@ export const info = {
     ],
     skills:
         {
-            proficientWith: ['C++','Unity/C#', 'Python/Machine Learning', "Photoshop" ],
-            exposedTo: ['nodejs', 'SQL', 'blender']
+            proficientWith: ['C++','Unity', 'Machine Learning', "Git" ],
+            exposedTo: ['NodeJS', 'Flutter', 'Blender']
         }
     ,
     hobbies: [
         {
-            label: 'gaming',
-            emoji: '🎮'
-        },
-        {
-            label: 'music',
-            emoji: '🎵'
-        },
-        {
             label: 'drawing',
             emoji: '🎨'
-        },
-        {
-            label: 'movies',
-            emoji: '🎥'
-        },
-        {
-            label: 'football',
-            emoji: '⚽'
         },
         {
             label: 'pool',
             emoji: '🎱'
         },
         {
-            label: 'coding',
-            emoji: '💻'
-        }
+            label: 'football',
+            emoji: '⚽'
+        },
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
