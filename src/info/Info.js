@@ -107,7 +107,7 @@ export const info = {
     ],
     skills:
         {
-            proficientWith: ['C++','Unity', 'Machine Learning', "Git" ],
+            proficientWith: ['C++','Unity', 'Machine Learning', "Git", "CocosCreator"],
             exposedTo: ['NodeJS', 'Flutter', 'Blender']
         }
     ,
