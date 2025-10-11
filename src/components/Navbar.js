@@ -1,10 +1,12 @@
 import { Box } from "@mui/material";
 import React, { useState } from 'react';
 import { Link, useLocation } from "react-router-dom";
+import resume from "../assets/LAINGUYENVINHPHU_resume.pdf";
 import logo from '../img/logo.png';
 import { info } from "../info/Info";
 import Style from './Navbar.module.scss';
 import Toggler from "./home/Toggler";
+
 
 const links = [
     {
@@ -34,11 +36,11 @@ export default function Navbar({ darkMode, handleClick }) {
             <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
                 gap={{ xs: '2rem', md: '8rem' }}
                 textTransform={'lowercase'} fontSize={'0.7rem'}>
-                {/* <li>
+                <li>
                     <a href={resume} target="_blank">
                         resumé
                     </a>
-                </li> */}
+                </li>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
                         sx={{ borderImageSource: info.gradient }}>

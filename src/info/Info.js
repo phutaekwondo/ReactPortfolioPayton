@@ -1,15 +1,10 @@
 // import self from "../img/self.png"
-import self from "../img/self.png"
-import flappybird_mock from "../img/flappybird_mock.png"
 import billiard_mock from "../img/billiard_mock.png"
-import nohelmet_mock from "../img/nohelmet_mock.png"
-import smash_mock from "../img/smash_mock.png"
 import drstrange_mock from "../img/drstrange_mock.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import flappybird_mock from "../img/flappybird_mock.png"
+import nohelmet_mock from "../img/nohelmet_mock.png"
+import self from "../img/self.png"
+import smash_mock from "../img/smash_mock.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -49,7 +44,7 @@ export const info = {
         {
             //laptop emoji
             emoji: '💻',
-            text: "Working at Mecury Studio"
+            text: "Working at Mercury Studio"
         },
         {
             emoji: "📧",
@@ -77,12 +72,12 @@ export const info = {
             icon: "fa fa-linkedin",
             label: 'linkedin'
         }
-// Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-// Just change the links so that they lead to your social profiles.
+        // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
+        // Just change the links so that they lead to your social profiles.
 
     ],
     bio: "Hi! I'm Phú. I studied ComSci at UIT, and currently I'm a game developer. I enjoy drawing and coding a lot, and I believe that video-games are the best way to tell a story.",
-    experiences:[
+    experiences: [
         {
             position: "Computer Science Student",
             company: "University of Information Technology",
@@ -106,10 +101,10 @@ export const info = {
         },
     ],
     skills:
-        {
-            proficientWith: ['C++','Unity', 'Machine Learning', "Git", "CocosCreator"],
-            exposedTo: ['NodeJS', 'Flutter', 'Blender']
-        }
+    {
+        proficientWith: ['C++', 'Unity', 'Machine Learning', "Git", "CocosCreator"],
+        exposedTo: ['NodeJS', 'Flutter', 'Blender']
+    }
     ,
     hobbies: [
         {
@@ -124,15 +119,15 @@ export const info = {
             label: 'football',
             emoji: '⚽'
         },
-// Same as above, change the emojis to match / relate to your hobbies or interests.
-// You can also remove the emojis if you'd like, I just think they look cute :P
+        // Same as above, change the emojis to match / relate to your hobbies or interests.
+        // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Flappy Bird - C++",
             live: "https://youtu.be/5E6iAwEELds", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/phutaekwondo/flappybird-cpp", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: flappybird_mock 
+            image: flappybird_mock
         },
         {
             title: "Dr Strange Portal - Unity 3D",
@@ -144,13 +139,13 @@ export const info = {
             title: "Smash the Capsule - Unity",
             playable: "https://macteo.itch.io/smash-the-capsule",
             source: "https://github.com/phutaekwondo/smash-2d-unity",
-            image: smash_mock 
+            image: smash_mock
         },
         {
             title: "Billiard - Unity",
             live: "https://youtu.be/-G8uWSB-JOg",
             source: "https://github.com/phutaekwondo/billiard-unity",
-            image: billiard_mock 
+            image: billiard_mock
         },
         {
             title: "No Helmet Biker Detecting - Computer Vision",
