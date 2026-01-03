@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link, useLocation } from "react-router-dom";
-import resume from "../assets/LAINGUYENVINHPHU_resume.pdf";
+import resume from "../assets/cv_LaiNguyenVinhPhu_no_phone.pdf";
 import logo from '../img/logo.png';
 import { info } from "../info/Info";
 import Style from './Navbar.module.scss';

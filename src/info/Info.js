@@ -2,7 +2,7 @@
 import billiard_mock from "../img/billiard_mock.png"
 import drstrange_mock from "../img/drstrange_mock.png"
 import flappybird_mock from "../img/flappybird_mock.png"
-import nohelmet_mock from "../img/nohelmet_mock.png"
+import mummy_maze from "../img/mummy_maze.gif"
 import self from "../img/self.png"
 import smash_mock from "../img/smash_mock.png"
 
@@ -148,10 +148,10 @@ export const info = {
             image: billiard_mock
         },
         {
-            title: "No Helmet Biker Detecting - Computer Vision",
-            live: "https://youtu.be/X8SodgyuSpA",
-            source: "https://github.com/phutaekwondo/Driving_motorbike_without_helmet_detection_Using_YOLOV5",
-            image: nohelmet_mock
+            title: "Mummy Maze Clone - Unity",
+            // live: "https://youtu.be/-G8uWSB-JOg",
+            source: "https://github.com/phutaekwondo/mummy-maze-clone",
+            image: mummy_maze 
         },
     ]
 }
