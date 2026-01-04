@@ -15,7 +15,7 @@ export default function Home() {
          <Box className={classNames(Style.avatar, Style.shadowed)} 
               alt={'image of developer'} 
             //   style={{background: info.gradient}} 
-              style={{background: "#ff5935"}} 
+              style={{background: "#c43e3eff"}} 
               component={'img'} 
               src={me} 
               width={{xs: '35vh', md: '40vh'}}
