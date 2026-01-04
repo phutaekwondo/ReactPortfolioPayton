@@ -44,7 +44,7 @@ export const info = {
         {
             //laptop emoji
             emoji: '💻',
-            text: "Working at Mercury Studio"
+            text: "Unity, Cocos"
         },
         {
             emoji: "📧",
