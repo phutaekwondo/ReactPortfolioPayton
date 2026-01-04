@@ -1,9 +1,9 @@
 // import self from "../img/self.png"
+import self from "../img/anim_avatar.gif"
 import billiard_mock from "../img/billiard_mock.png"
 import drstrange_mock from "../img/drstrange_mock.png"
 import flappybird_mock from "../img/flappybird_mock.png"
 import mummy_maze from "../img/mummy_maze.gif"
-import self from "../img/self.png"
 import smash_mock from "../img/smash_mock.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
